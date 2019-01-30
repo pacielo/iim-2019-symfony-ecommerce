@@ -1,0 +1,52 @@
+security:
+<<<<<<< HEAD
+    encoders:
+        App\Entity\User:
+            algorithm: bcrypt
+
+    # https://symfony.com/doc/current/security.html#where-do-users-come-from-user-providers
+    providers:
+        # used to reload user from session & other features (e.g. switch_user)
+        app_user_provider:
+            entity:
+                class: App\Entity\User
+                property: email
+=======
+    # https://symfony.com/doc/current/security.html#where-do-users-come-from-user-providers
+    providers:
+        in_memory: { memory: ~ }
+>>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
+    firewalls:
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+        main:
+            anonymous: true
+<<<<<<< HEAD
+            guard:
+                authenticators:
+                    - App\Security\AppAuthenticator
+            logout:
+                path:   /logout
+                target: /
+                invalidate_session: true
+=======
+
+>>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
+            # activate different ways to authenticate
+
+            # http_basic: true
+            # https://symfony.com/doc/current/security.html#a-configuring-how-your-users-will-authenticate
+
+            # form_login: true
+            # https://symfony.com/doc/current/security/form_login_setup.html
+
+    # Easy way to control access for large sections of your site
+    # Note: Only the *first* access control that matches will be used
+    access_control:
+<<<<<<< HEAD
+        - { path: ^/admin, roles: ROLE_ADMIN }
+=======
+        # - { path: ^/admin, roles: ROLE_ADMIN }
+>>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
+        # - { path: ^/profile, roles: ROLE_USER }
