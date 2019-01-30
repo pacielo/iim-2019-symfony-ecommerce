@@ -1,7 +1,6 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-<<<<<<< HEAD
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
@@ -73,14 +72,6 @@
             "time": "2018-01-22T09:00:48+00:00"
         },
         {
-=======
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
-        "This file is @generated automatically"
-    ],
-    "content-hash": "cee4085fe3fa88057621162b3c43239f",
-    "packages": [
-        {
->>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
             "name": "doctrine/annotations",
             "version": "v1.6.0",
             "source": {
@@ -631,7 +622,6 @@
         },
         {
             "name": "doctrine/doctrine-migrations-bundle",
-<<<<<<< HEAD
             "version": "v2.0.0",
             "source": {
                 "type": "git",
@@ -642,23 +632,10 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/doctrine/DoctrineMigrationsBundle/zipball/4c9579e0e43df1fb3f0ca29b9c20871c824fac71",
                 "reference": "4c9579e0e43df1fb3f0ca29b9c20871c824fac71",
-=======
-            "version": "v1.3.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/doctrine/DoctrineMigrationsBundle.git",
-                "reference": "49fa399181db4bf4f9f725126bd1cb65c4398dce"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineMigrationsBundle/zipball/49fa399181db4bf4f9f725126bd1cb65c4398dce",
-                "reference": "49fa399181db4bf4f9f725126bd1cb65c4398dce",
->>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
                 "shasum": ""
             },
             "require": {
                 "doctrine/doctrine-bundle": "~1.0",
-<<<<<<< HEAD
                 "doctrine/migrations": "^2.0",
                 "php": "^7.1",
                 "symfony/framework-bundle": "~3.4|~4.0"
@@ -669,23 +646,11 @@
                 "phpstan/phpstan": "^0.9.2",
                 "phpstan/phpstan-strict-rules": "^0.9",
                 "phpunit/phpunit": "^5.7|^6.4|^7.0"
-=======
-                "doctrine/migrations": "^1.1",
-                "php": ">=5.4.0",
-                "symfony/framework-bundle": "~2.7|~3.3|~4.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.8.36 || ^5.7.27 || ^7.4"
->>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-master": "2.0.x-dev"
-=======
-                    "dev-master": "1.3-dev"
->>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
                 }
             },
             "autoload": {
@@ -712,21 +677,13 @@
                 }
             ],
             "description": "Symfony DoctrineMigrationsBundle",
-<<<<<<< HEAD
             "homepage": "https://www.doctrine-project.org",
-=======
-            "homepage": "http://www.doctrine-project.org",
->>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
             "keywords": [
                 "dbal",
                 "migrations",
                 "schema"
             ],
-<<<<<<< HEAD
             "time": "2019-01-09T18:49:50+00:00"
-=======
-            "time": "2018-12-03T11:55:33+00:00"
->>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
         },
         {
             "name": "doctrine/event-manager",
@@ -979,7 +936,6 @@
         },
         {
             "name": "doctrine/migrations",
-<<<<<<< HEAD
             "version": "v2.0.0",
             "source": {
                 "type": "git",
@@ -1013,34 +969,6 @@
                 "phpunit/phpunit": "^7.0",
                 "symfony/process": "^3.4||^4.0",
                 "symfony/yaml": "^3.4||^4.0"
-=======
-            "version": "v1.8.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/doctrine/migrations.git",
-                "reference": "215438c0eef3e5f9b7da7d09c6b90756071b43e6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/migrations/zipball/215438c0eef3e5f9b7da7d09c6b90756071b43e6",
-                "reference": "215438c0eef3e5f9b7da7d09c6b90756071b43e6",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/dbal": "~2.6",
-                "ocramius/proxy-manager": "^1.0|^2.0",
-                "php": "^7.1",
-                "symfony/console": "~3.3|^4.0"
-            },
-            "require-dev": {
-                "doctrine/coding-standard": "^1.0",
-                "doctrine/orm": "~2.5",
-                "jdorn/sql-formatter": "~1.1",
-                "mikey179/vfsstream": "^1.6",
-                "phpunit/phpunit": "~7.0",
-                "squizlabs/php_codesniffer": "^3.0",
-                "symfony/yaml": "~3.3|^4.0"
->>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
             },
             "suggest": {
                 "jdorn/sql-formatter": "Allows to generate formatted SQL with the diff command.",
@@ -1052,19 +980,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-master": "2.0.x-dev"
-=======
-                    "dev-master": "v1.8.x-dev"
->>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
                 }
             },
             "autoload": {
                 "psr-4": {
-<<<<<<< HEAD
-=======
-                    "Doctrine\\DBAL\\Migrations\\": "lib/Doctrine/DBAL/Migrations",
->>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
                     "Doctrine\\Migrations\\": "lib/Doctrine/Migrations"
                 }
             },
@@ -1086,7 +1006,6 @@
                     "email": "contact@mikesimonson.com"
                 }
             ],
-<<<<<<< HEAD
             "description": "PHP Doctrine Migrations project offer additional functionality on top of the database abstraction layer (DBAL) for versioning your database schema and easily deploying changes to it. It is a very easy to use and a powerful tool.",
             "homepage": "https://www.doctrine-project.org/projects/migrations.html",
             "keywords": [
@@ -1096,15 +1015,6 @@
                 "php"
             ],
             "time": "2019-01-03T18:59:09+00:00"
-=======
-            "description": "Database Schema migrations using Doctrine DBAL",
-            "homepage": "https://www.doctrine-project.org/projects/migrations.html",
-            "keywords": [
-                "database",
-                "migrations"
-            ],
-            "time": "2018-06-06T21:00:30+00:00"
->>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
         },
         {
             "name": "doctrine/orm",
@@ -1457,7 +1367,6 @@
             "time": "2016-10-17T18:31:11+00:00"
         },
         {
-<<<<<<< HEAD
             "name": "fzaninotto/faker",
             "version": "v1.8.0",
             "source": {
@@ -1508,8 +1417,6 @@
             "time": "2018-07-12T10:23:15+00:00"
         },
         {
-=======
->>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
             "name": "jdorn/sql-formatter",
             "version": "v1.2.17",
             "source": {
@@ -3808,7 +3715,6 @@
         },
         {
             "name": "symfony/orm-pack",
-<<<<<<< HEAD
             "version": "v1.0.6",
             "source": {
                 "type": "git",
@@ -3819,27 +3725,11 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/orm-pack/zipball/36c2a928482dc5f05c5c1c1b947242ae03ff1335",
                 "reference": "36c2a928482dc5f05c5c1c1b947242ae03ff1335",
-=======
-            "version": "v1.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/orm-pack.git",
-                "reference": "1b58f752cd917a08c9c8df020781d9c46a2275b1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/orm-pack/zipball/1b58f752cd917a08c9c8df020781d9c46a2275b1",
-                "reference": "1b58f752cd917a08c9c8df020781d9c46a2275b1",
->>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
                 "shasum": ""
             },
             "require": {
                 "doctrine/doctrine-bundle": "^1.6.10",
-<<<<<<< HEAD
                 "doctrine/doctrine-migrations-bundle": "^1.3|^2.0",
-=======
-                "doctrine/doctrine-migrations-bundle": "^1.3",
->>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
                 "doctrine/orm": "^2.5.11",
                 "php": "^7.0"
             },
@@ -3849,11 +3739,7 @@
                 "MIT"
             ],
             "description": "A pack for the Doctrine ORM",
-<<<<<<< HEAD
             "time": "2019-01-16T09:49:15+00:00"
-=======
-            "time": "2017-12-12T01:47:50+00:00"
->>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
         },
         {
             "name": "symfony/polyfill-intl-icu",
@@ -4684,7 +4570,6 @@
             "time": "2018-12-10T12:14:14+00:00"
         },
         {
-<<<<<<< HEAD
             "name": "symfony/stopwatch",
             "version": "v4.2.2",
             "source": {
@@ -4735,8 +4620,6 @@
             "time": "2019-01-03T09:07:35+00:00"
         },
         {
-=======
->>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
             "name": "symfony/swiftmailer-bundle",
             "version": "v3.2.5",
             "source": {
@@ -5320,7 +5203,6 @@
         },
         {
             "name": "twig/twig",
-<<<<<<< HEAD
             "version": "v2.6.2",
             "source": {
                 "type": "git",
@@ -5331,18 +5213,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/twigphp/Twig/zipball/7d7342c8a4059fefb9b8d07db0cc14007021f9b7",
                 "reference": "7d7342c8a4059fefb9b8d07db0cc14007021f9b7",
-=======
-            "version": "v2.6.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/twigphp/Twig.git",
-                "reference": "a11dd39f5b6589e14f0ff3b36675d06047c589b1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/a11dd39f5b6589e14f0ff3b36675d06047c589b1",
-                "reference": "a11dd39f5b6589e14f0ff3b36675d06047c589b1",
->>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
                 "shasum": ""
             },
             "require": {
@@ -5396,11 +5266,7 @@
             "keywords": [
                 "templating"
             ],
-<<<<<<< HEAD
             "time": "2019-01-14T15:00:48+00:00"
-=======
-            "time": "2018-12-16T10:36:48+00:00"
->>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
         },
         {
             "name": "webmozart/assert",
@@ -5563,7 +5429,6 @@
     ],
     "packages-dev": [
         {
-<<<<<<< HEAD
             "name": "doctrine/data-fixtures",
             "version": "v1.3.1",
             "source": {
@@ -5687,8 +5552,6 @@
             "time": "2018-12-21T10:10:51+00:00"
         },
         {
-=======
->>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
             "name": "easycorp/easy-log-handler",
             "version": "v1.0.7",
             "source": {
@@ -5800,7 +5663,6 @@
         },
         {
             "name": "nikic/php-parser",
-<<<<<<< HEAD
             "version": "v4.2.0",
             "source": {
                 "type": "git",
@@ -5811,18 +5673,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/594bcae1fc0bccd3993d2f0d61a018e26ac2865a",
                 "reference": "594bcae1fc0bccd3993d2f0d61a018e26ac2865a",
-=======
-            "version": "v4.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "8aae5b59b83bb4d0dbf07b0a835f2680a658f610"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/8aae5b59b83bb4d0dbf07b0a835f2680a658f610",
-                "reference": "8aae5b59b83bb4d0dbf07b0a835f2680a658f610",
->>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
                 "shasum": ""
             },
             "require": {
@@ -5838,11 +5688,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-master": "4.2-dev"
-=======
-                    "dev-master": "4.1-dev"
->>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
                 }
             },
             "autoload": {
@@ -5864,11 +5710,7 @@
                 "parser",
                 "php"
             ],
-<<<<<<< HEAD
             "time": "2019-01-12T16:31:37+00:00"
-=======
-            "time": "2018-12-26T11:32:39+00:00"
->>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
         },
         {
             "name": "symfony/browser-kit",
@@ -6135,7 +5977,6 @@
         },
         {
             "name": "symfony/maker-bundle",
-<<<<<<< HEAD
             "version": "v1.11.3",
             "source": {
                 "type": "git",
@@ -6146,18 +5987,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/maker-bundle/zipball/08fabae78050d2fe71341d0edc3872bddf03482f",
                 "reference": "08fabae78050d2fe71341d0edc3872bddf03482f",
-=======
-            "version": "v1.11.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/maker-bundle.git",
-                "reference": "24b19cccad0c658eca516b35b08668d123fabf92"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/maker-bundle/zipball/24b19cccad0c658eca516b35b08668d123fabf92",
-                "reference": "24b19cccad0c658eca516b35b08668d123fabf92",
->>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
                 "shasum": ""
             },
             "require": {
@@ -6210,11 +6039,7 @@
                 "scaffold",
                 "scaffolding"
             ],
-<<<<<<< HEAD
             "time": "2019-01-17T02:02:27+00:00"
-=======
-            "time": "2019-01-05T04:30:01+00:00"
->>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
         },
         {
             "name": "symfony/panther",
@@ -6435,59 +6260,6 @@
             "time": "2018-12-10T12:11:44+00:00"
         },
         {
-<<<<<<< HEAD
-=======
-            "name": "symfony/stopwatch",
-            "version": "v4.2.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/stopwatch.git",
-                "reference": "af62b35760fc92c8dbdce659b4eebdfe0e6a0472"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/af62b35760fc92c8dbdce659b4eebdfe0e6a0472",
-                "reference": "af62b35760fc92c8dbdce659b4eebdfe0e6a0472",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1.3",
-                "symfony/contracts": "^1.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.2-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\Stopwatch\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony Stopwatch Component",
-            "homepage": "https://symfony.com",
-            "time": "2019-01-03T09:07:35+00:00"
-        },
-        {
->>>>>>> 6c84967711a08c4734e975c498cd81c26a2b2c67
             "name": "symfony/test-pack",
             "version": "v1.0.5",
             "source": {

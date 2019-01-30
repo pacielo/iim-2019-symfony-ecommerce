@@ -517,8 +517,7 @@ iframe {
 .fixed-header {height: 110px;}
 
 
-/*[ Header Desktop ]
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*[ Header Desktop ]*/
 
 .container-menu-header {
   width: 100%;
@@ -956,8 +955,7 @@ li.sale-noti > a {
 
 
 
-/*[ Header Mobile ]
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*[ Header Mobile ]*/
 .wrap_header_mobile {
   display: -webkit-box;
   display: -webkit-flex;
