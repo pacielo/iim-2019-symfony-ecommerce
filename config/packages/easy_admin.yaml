@@ -15,9 +15,7 @@ easy_admin:
             show:
                 fields:
                     - { property: 'image', type: 'image', base_path: '%app.path.product_images%' }
-            form:
-                fields:
-                    - { property: 'imageFile', type: 'vich_image' }
+
         User:
             class: App\Entity\User
 

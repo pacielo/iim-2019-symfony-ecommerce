@@ -57,8 +57,8 @@ class Product
 
     /**
      * @ORM\Column(type="string", length=255)
-     */
-    private $pictureUrl;
+
+    private $pictureUrl; */
 
     /**
      * @ORM\Column(type="string", length=255)
@@ -97,7 +97,7 @@ class Product
         // otherwise the event listeners won't be called and the file is lost
         if ($image) {
             // if 'updatedAt' is not defined in your entity, use another property
-            $this->$dateAdd = new \DateTime('now');
+            $this->dateAdd = new \DateTime('now');
         }
     }
 
@@ -181,6 +181,7 @@ class Product
         return $this;
     }
 
+    /*
     public function getPictureUrl(): ?string
     {
         return $this->pictureUrl;
@@ -192,6 +193,7 @@ class Product
 
         return $this;
     }
+    */
 
     public function getDateAdd(): ?\DateTimeInterface
     {
